@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cod</fullName>
+    <types>
+        <members>cod</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>DeliveryDetails__c.Delivery_Date__c</members>
+        <members>DeliveryDetails__c.Delivery_Remarks1__c</members>
+        <members>DeliveryDetails__c.Delivery_Remarks__c</members>
+        <members>Payment__c.Amount__c</members>
+        <members>Payment__c.Bank_Name__c</members>
+        <members>Payment__c.delivery_details_link__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>DeliveryDetails__c</members>
+        <members>Payment__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>DeliveryDetails__c</members>
+        <members>Payment__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>DeliveryDetails__c-DeliveryDetail Layout</members>
+        <members>Payment__c-Payment Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>DeliveryDetails__c.All</members>
+        <members>Payment__c.All</members>
+        <name>ListView</name>
+    </types>
+    <version>31.0</version>
+</Package>
